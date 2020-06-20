@@ -1,2 +1,3 @@
-# homework-week-2
-Week 2 bootstrap homework
+# Updated Portfolio
+
+https://dantalmont.github.io/updated-portfolio/
