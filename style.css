@@ -1,0 +1,76 @@
+body {
+    background-color: rgb(216, 245, 243);
+    height: 100%;
+}
+
+header {
+    height: 3em;
+}
+.container{
+    background-color: rgb(216, 245, 243);
+    height: auto;
+}
+
+.card-img-top {
+    width: 100%;
+    height: 45vw;
+    object-fit: cover;
+}
+#profile{
+    display: inline-block;
+    position: relative;
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    border-radius: 50%; 
+}
+
+.profilePic {
+    /* width: 30%;
+    height: auto;
+    padding-top: 5%;
+    border-radius: 50%; */
+    width: auto;
+    height: 100%;
+    margin-left: -15px;
+}
+
+body{
+    clear:both;
+}
+.wrapper{
+    clear: both;
+}
+
+.navbar {
+    background-color: rgb(95, 199, 192);
+}
+.navbar-brand {
+    font-size: larger;
+}  
+
+.bg-light {
+    background-color: cadetblue;
+}
+.container {
+    background-color: rgb(160, 205, 212);
+}
+.card img {
+    padding: 10px ;
+    height: auto ;
+    width: 100% ;
+    float: left;
+}
+
+
+.footer {
+    background-color: rgb(216, 245, 243);
+    flex-shrink: none;
+    padding-bottom: 30px;
+    clear: both;
+}
+.card {
+    margin: 0 auto; /* Added */
+    float: none; /* Added */
+    margin-bottom: 10px; /* Added */
+}
