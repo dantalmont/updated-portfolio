@@ -6,8 +6,15 @@ body {
 header {
     height: 3em;
 }
+
+p {
+    margin-bottom: 10px;
+    margin-top: 20px;
+    font-size: 1.7em;
+    text-align: center;
+    
+}
 .container{
-    background-color: rgb(216, 245, 243);
     height: auto;
 }
 
@@ -16,13 +23,15 @@ header {
     height: 45vw;
     object-fit: cover;
 }
-#profile{
+.profile{
     display: inline-block;
     position: relative;
     width: 200px;
     height: 200px;
     overflow: hidden;
     border-radius: 50%; 
+    margin-left:25% ;
+    margin-top: 10%;
 }
 
 .profilePic {
@@ -32,7 +41,7 @@ header {
     border-radius: 50%; */
     width: auto;
     height: 100%;
-    margin-left: -15px;
+    /* margin-left: -4px; */
 }
 
 body{
@@ -52,9 +61,7 @@ body{
 .bg-light {
     background-color: cadetblue;
 }
-.container {
-    background-color: rgb(160, 205, 212);
-}
+
 .card img {
     padding: 10px ;
     height: auto ;
@@ -73,4 +80,17 @@ body{
     margin: 0 auto; /* Added */
     float: none; /* Added */
     margin-bottom: 10px; /* Added */
+}
+
+@media screen and (min-width: 480px) {
+    .profile{
+        display: inline-block;
+        position: relative;
+        width: 200px;
+        height: 200px;
+        overflow: hidden;
+        border-radius: 50%; 
+        margin-left:35% ;
+        margin-top: 10%;
+    }
 }
